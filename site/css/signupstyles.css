@@ -5,29 +5,11 @@ body {background-color: gray;
 }
 /*-----Navigation Bar------ */
 
-#header-nav{
-	border-radius: 0;
-	border: 0;
-	background-color: black;
-	text-decoration-color: white;
-	padding: 0
-}
-.container-fluid{
-	background-color: black;
-	color: white;
-	text-decoration: white;
-}
-
-.navbar-toggler{
-	color: whitesmoke;
-	background-color: gray;
-
-}
 .nav-link{
-	color: white;
-	text-align: center;
+		text-align: center;
 }
 /*-----Navigation Bar------ */
+
 /*SIGN UP PAGE*/
 #signup{
 	text-align: center;
@@ -65,9 +47,9 @@ body {background-color: gray;
 	
 	overflow: hidden;
 	position: relative;
-  text-align: center;
-  color: black;
-  background-image: url(../images/About_1200.jpg);
+  	text-align: center;
+  	color: black;
+    background-image: url(../images/About_1200.jpg);
 
 }
 h1{
@@ -93,16 +75,9 @@ h1{
 /*	border: 1px solid black;*/
 	padding-bottom: 30px;
 }
-span{
-	font-weight: bold;
-}
-#copyright{
-	padding-top: 15px;
-}
-footer{
-	padding-top: 50px;
-}
+
 /*-----------CONTACT US PAGE------*/
+
 
 /*PRODUCTS*/
 #line{
@@ -123,3 +98,16 @@ footer{
 }
 
 /*-----------PRODUCTS------*/
+
+/*-------FOOTER------*/
+span{
+	font-weight: bold;
+}
+#copyright{
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+footer{
+	padding-top: 50px;
+}
+/*-------FOOTER------*/
