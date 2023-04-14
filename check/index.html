@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Details</title>
+</head>
+<body>
+	<fieldset>
+		<legend>Personal Information</legend>
+	<form action="connect.php" method="post">
+		<table>
+			<tr>Salutation</tr>
+			<div><tr>
+				<select>
+					<option>Mr.</option>
+					<option>Ms.</option>
+					<option>Mrs.</option>
+				</select>
+			</tr></div>
+			<tr>
+				<td>First Name:</td>
+				<td>
+					<input type="text" name="FirstName" id="FirstName">
+				</td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td>
+					<input type="text" name="LastName" id="LastName">
+				</td>
+			</tr>
+			<tr>
+				<td>Gender:</td>
+				<td>
+					<input type="radio" name="Gender" id="male" value="m">Male
+					<input type="radio" name="Gender" id="female" value="f">Female
+				</td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td>
+					<input type="Email" id="Email" name="Email">
+				</td>
+			</tr>
+			<tr>
+				<td>Date of Birth:</td>
+				<td>
+					<input type="Date" id="DateOfBirth" name="DateOfBirth">
+				</td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td>
+					<input type="text" id="Address" name="Address">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" name="Submit">
+				</td>
+			</tr>
+			
+		</table>
+	</form>
+	</fieldset>
+</body>
+</html>
